@@ -6,6 +6,23 @@
 } 
 
 body{
-  min-width :90rem;
+  minwidth :4rem!important ;
   
+}
+/*Thrive's section*/
+setion.kala{
+  display :grid ;
+  grid-template-columns :1fr ;
+  justify-content :center ;
+  align-content :center ;
+  grid-gap: 1rem ;
+}
+section.kayla div{
+  with:16rem;
+  hight :16rem;
+}
+@media (min-width :48rem){
+  body {
+    background-color :#3D48BA!important ;
+  }
 }
