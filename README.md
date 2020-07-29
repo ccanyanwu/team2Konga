@@ -8,7 +8,9 @@ clone to your system by using this command on your git bash like so
 "git clone https://github.com/ccanyanwu/team2Konga.git"
 without the quotes 
 
-set the main repo https://github.com/ccanyanwu/team2Konga.git"  as your upstream.
+set the main repo https://github.com/ccanyanwu/team2Konga.git"  as your upstream like so 
+"git remote add upstream https://github.com/ccanyanwu/team2Konga.git"
+without the quotes 
 
 create your own branch and switch to it by typing this command 
 "git checkout -b yourBranchName" 
